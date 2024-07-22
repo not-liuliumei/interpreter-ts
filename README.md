@@ -1,2 +1,3 @@
-# interpreter-rs
-An interpreter build by Rust
+# interpreter-ts
+
+An interpreter build by TypeScript

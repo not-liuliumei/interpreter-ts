@@ -1,0 +1,16 @@
+{
+  "name": "interpreter-ts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An interpreter build by TypeScript",
+  "main": "./src/index.ts",
+  "scripts": {
+    "dev": "tsx ./src/index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "20.14.11",
+    "tsx": "4.16.2"
+  }
+}
