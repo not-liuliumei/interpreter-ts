@@ -1,9 +1,10 @@
-import { Lox } from "./Lox"
+import { Lox } from "./Lox";
 
-const args = process.argv
+const args = process.argv;
+console.log(args);
 
-if(args.length === 1) {
-    new Lox(args[0]);
+if (args.length === 3) {
+  new Lox(args[2]);
 } else {
-    console.log("Usage: tslox [script]");
+  console.log("Usage: tslox [script]");
 }
